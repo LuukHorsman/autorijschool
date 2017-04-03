@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+        <title>Rijschool Rocket</title>
+        <link href='https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="template.css">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <meta name="viewport" content="width=device-width" />
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Autorijschool, Rijschool, Rocket, Rijles">
+        <meta name="author" content="Brouwer & Horsman Development">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="javascript.js"></script>
+
+
+</head>
+<body>
+  <!--begin container pagina-->
+  <div class="center"> 
+    
+      <div class="header-bar-blue"></div>
+      
+          <a href="index.html">
+            <div class="header">
+            <img src="logo.png" class="rijschool-logo">
+            </div>
+          </a>
+          
+  <!--hier begint het menu-->
+  
+      <div class="menu-trigger"><img class="hamburger-logo" src="MenuIcon4.png"></div>
+  
+      <div class="menu">
+        
+          <ul>
+            <a href="index.html" class="border-items"><li>Home</li></a>
+            <a href="nieuws.html" class="border-items"><li>Nieuws</li></a>
+            <a href="overons.html" class="border-items"><li>Over ons</li></a>
+            
+            
+            <div class="dropdown" class="border-items">  
+              <a href="contact.html" class="border-items"><li>Contact</li></a>
+                <div class="dropdown-content">
+                  <a href="vacatures.html">Vacatures</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">  
+              <a href="lesmethode.html" class="border-items"><li>Lesmethode</li></a>
+                <div class="dropdown-content">
+                  <a href="theorie.html">Theorie</a>
+                  <a href="rijangst.html">Rijangst</a>
+                  <a href="voorwaarden.html">Algemene voorwaarden</a> 
+                </div>
+            </div>
+            
+            <div class="dropdown">  
+              <a href="lespakketten.html" class="border-items"><li class="dropbtn">Lespakketten</li></a>
+                <div class="dropdown-content">
+                  <a href="auto.html">Auto</a>
+                  <a href="bromfiets.html">Bromfiets</a>
+                  <a href="motor.html">Motor</a>
+                  <a href="vrachtwagen.html">Vrachtwagen</a>
+                  <a href="aanhangwagen.html">Aanhangwagen</a>
+                  <a href="taxi.html">Taxi</a>
+                </div>
+            </div>
+            
+            <a href="inschrijven.html" class="border-items"><li>Inschrijven</li></a>
+            <a href="inloggen.html" class="border-items"><li>Inloggen</li></a>
+          </ul>
+          
+      </div>
+      
+      <div class="header-bar-orange"></div>
+      <div class="header-bar-gray"></div>
+  
+  <!--hier eindigt het menu en begint de content-->
+
+      <div class="home">
+  
+        <div class="home-container">
+          
+        <div class="login-bar">Inloggen lesrooster</div>
+        
+        <div class="login-container">
+        
+        <div class="login-info">
+          Om het lesrooster van deze en volgende week te bekijken moet je inloggen met de inlog code en wachtwoord die je van je rij instructeur hebt gekregen. Heb je deze niet gekregen? Vraag er de eerst volgende les naar!
+        </div>
+      
+<div id="loginscherm">
+            
+        <input type="text" id="invoer" class="veld" placeholder="Gebruikersnaam"><br>
+        <br>
+        <input type="password" class="veld" placeholder="Wachtwoord"><br>
+        <br>
+        <a onclick="controleer()" class="button">Inloggen</a>
+        
+        <p id="foutmelding"></p>
+          
+        </div>
+        
+        </div>
+        </div>
+        
+  <!--hier eindigt de content en begint de footer-->
+
+  <div class="footer-part-one">
+      <div class="header-bar-gray"></div>
+      <div class="header-bar-blue"></div>
+    
+    <div class="footer-container">
+      
+      <ul class="footer-list">
+        
+        <li class="footer-title">Informatie</li>
+        <li>&nbsp;</li>
+        <li><a href="voorwaarden.html" target="_blank">Algemene voorwaarden</a></li>
+        <li><a href="vacatures.html" target="_blank">Vacatures</a></li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+  
+      </ul>
+
+      <ul class="footer-list">
+  
+        <li class="footer-title">Contact gegevens</li>
+        <li><img src="tel1.png" class="footer-icon"> 030 - 5582903</li>
+        <li><img src="tel2.png" class="footer-icon"> 06 - 40872234</li>
+        <li><img src="address.png" class="footer-icon">&nbsp;Thorbeckelaan 82A<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3455 EB Utrecht</li>
+        
+      </ul>
+
+      <ul class="footer-list">
+        <li class="footer-title">E-mail</li>
+        <li>rijschoolrocket@hotmail.com</li>
+        <li>&nbsp;</li>
+        <li class="footer-title">Fax</li>
+        <li>030 2 730 842</li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+      </ul>
+
+      <ul class="footer-list">
+        <li class="footer-title">Sociale media</li>
+        <li><a href="https://nl-nl.facebook.com/" target="_blank"><img src="facebook.png" class="footer-icon">Facebook</a></li>
+        <li><a href="https://twitter.com/?lang=nl" traget="_blank"> <img src="twitter.png" class="footer-icon">Twitter</a></li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+      </ul>
+      
+  </div>
+  
+  </div>
+
+
+      <div class="footer-part-two">
+        
+          <div class="footer-copyright">
+            &#169; Copyright 2016 Autorijschool Rocket
+          </div>
+    
+          <div class="footer-developers">
+            Brouwer & Horsman Media Development
+          </div>
+    
+          <div class="footer-images">
+            <a href="https://www.cbr.nl/1036.pp"><img src="rijopleidingimg.png" class="image-link" hspace="20"></a>
+            
+            <a href="http://www.bovag.nl/"><img src="bovag.jpg" class="image-link"></a>
+          </div>
+
+  </div>
+
+</div>
+  
+<!--hier eindigt de footer en daarmee ook de pagina-->
+
+
+</body>
+</html>

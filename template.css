@@ -1,0 +1,1958 @@
+@media screen and (min-width: 1200px) {
+
+      /*normale template voor versie: groot*/
+      
+      body {
+        background-image: url('achtergrond.png');
+      
+      }
+      
+      .center {
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          width: 65%;
+          color: black;
+          background-color: white;
+          box-shadow: 1px 1px 13px #888888;
+          position: absolute;
+          top: 0px;
+      }
+      
+      .header-bar-blue {
+        background-color: #3A92CD;
+        height: 10px;
+      }
+      
+      .header {
+      width: 99,9%;
+      padding-left: 30px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      }
+      
+      .header-bar-orange {
+        width: 100%;
+        height: 5px;
+        background-color: #F78D30;
+      }
+      
+      .header-bar-gray {
+        width: 100%;
+        height: 1px;
+        background-color: lightgray;
+        box-shadow: 0px 2px 2px lightgray;
+      }
+      
+      .menu-trigger {
+        display: none;
+      }
+      
+     .menu {
+        text-align: center;
+        width: 100%;
+        padding: 3px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 90%;
+        font-weight: bold;
+        }
+                  
+        .menu a {
+          display: inline;
+          list-style-type: none;
+          text-decoration: none;
+          padding: 6px;
+          border-top-right-radius:10px;
+          border-top-left-radius:10px;
+          -o-transition:color .2s ease-out, background 1s ease-in;
+          -ms-transition:color .2s ease-out, background 1s ease-in;
+          -moz-transition:color .2s ease-out, background 1s ease-in;
+          -webkit-transition:color .2s ease-out, background 1s ease-in;
+          transition:color .2s ease-out, background .1s ease-in;
+          
+        }
+                  
+                  .menu ul {
+                    display: inline;
+                    list-style-type: none;
+                    text-decoration: none;
+                    padding: 6px;
+
+                  }
+                  
+                  .menu li {
+                    display: inline;
+                    list-style-type: none;
+                    text-decoration: none;
+                    padding: 6px;
+                    border-top-right-radius:10px;
+                    border-top-left-radius:10px;
+                  }
+                  
+                    .dropbtn {
+                    border: none;
+                    cursor: pointer;
+                  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin-top: 3px;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-top: 5px solid #F78D30;
+    border-bottom: 5px solid lightgray;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 0px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+                  
+      .menu a, a:link {
+      color: black;
+      }
+                  
+      .menu a:hover {
+      background-color: #F78D30;
+      color: #FFFFFF;
+      }
+      
+      .home {
+      width: 100%;
+      padding-top: 20px;
+      }
+      
+      .home-container {
+        width: 100%;
+        font-family: open sans, sans-serif;
+        font-size: 90%;
+      }
+      
+      
+      .footer-part-one {
+        background-color: #636363;
+        font-family: Arial;
+        font-size: 65%;
+        color: #c1c1c1;
+        float: left;
+        width: 100%;
+      }
+      
+      .footer-title {
+        font-weight: bold;
+        font-size: 110%;
+        padding-bottom: 4px;
+      }
+      
+      .footer-container{
+        width:800px;
+        margin:auto;
+      }
+      
+      .footer-list {
+        float: left;
+        border-left: 1px solid grey;
+        padding-right:4%;
+      }
+      
+      .footer-list:first-child {
+        border-left: 1px #636363;
+      }
+      
+      .footer-list li {
+        list-style-type: none;
+      }
+      
+      .footer-list a {
+      color: #b5b5b5;
+      text-decoration: none;
+      }
+      
+      .footer-list a:hover {
+      color: white;
+      }
+      
+      .footer-icon {
+        width: 18px;
+      }
+      
+      .footer-part-two {
+        background-color: #464646;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#b5b5b5;;
+        font-size: 65%;
+        font-family: open sans, sans-serif;
+        float: left;
+        width: 100%;
+      }
+      
+      .footer-images {
+        width: 30%;
+        margin: auto;
+      }
+      
+      .footer-copyright {
+        float: left;
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+      
+      .image-link {
+        width: 80px;
+        filter: url(filters.svg#grayscale); 
+        filter: gray;
+        -webkit-filter: grayscale(1);
+      }
+      
+      .image-link a {
+        text-decoration: none;
+      }
+      
+      .image-link:hover {
+      filter: none;
+      -webkit-filter: none;
+      }
+      
+      .footer-developers {
+        float: right;
+        padding-right: 20px;
+        padding-top: 20px;
+      }
+      
+      /*einde van de template en begin van de content*/
+      
+          /*HOME*/
+            .page-part-one {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    font-size: 85%;
+  }
+  
+  .page-part-two {
+    /*width: 50%;*/
+    float: left;
+  }
+
+      #bmw{
+        width:425px;
+        height:273.6px;
+        text-align:center;
+      }    
+          
+          
+      #vwauto{
+    width:425px;
+    height:273.6px;
+    text-align:center;
+  } 
+  .NieuwsAuto{
+    width:80%;
+    margin:auto;
+  }
+  .NieuwsText{
+    padding-left:20px;
+    padding-right:20px;
+  }
+    #NieuwsTopText{
+    text-align:center;
+  }
+          
+          
+          /*EINDE HOME*/
+          
+          /*CONTACT*/
+          
+    
+    .map {
+    width: 50%;
+    height: 450px;
+    float: right;
+    padding-bottom: 30px;
+  }
+  
+  .contact-container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .contact-container h2 {
+    background-color: #3A92CD;
+    padding: 5px;
+    color: white;
+  }
+  
+  .contact-info {
+    width: 48%;
+    float: left;
+  }
+  
+  .bel-me-nu {
+    display: none;
+  }
+          
+          /*EINDE CONTACT*/
+          
+          /*VACATURES*/
+          
+            .vacature-box {
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .vacature-box h2 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    background-color: #3A92CD;
+    color: white;
+    padding-left: 10px;
+  }
+  
+  .vacature-box a {
+    background-color: #3A92CD;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  
+  .vacature-box a:hover {
+    background-color: #F78D30;
+    color: white;
+  }
+  
+  #video {
+    float: right;
+  }
+          
+          
+          /*EINDE VACATURES*/
+          
+          
+          
+          /*LESPAKKETTEN*/
+          
+  .current {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+  }
+
+    .pakket-keuze {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pakket-keuze img {
+  width: 15%;
+  height: 10%;
+  transition: all .2s ease-in-out;
+  opacity: 0.8;
+}
+
+.pakket-keuze img:hover {
+  opacity: 1.0;
+  transform: scale(0.8);
+}
+
+.pakket-keuze-klein {
+  display: none;
+}
+
+.tarief-soort {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 15px;
+  width: 90%;
+  margin: auto;
+}
+
+.tabel-pakket {
+    padding-top: 20px;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    }
+          
+    .tabel-pakket th, td {
+    text-align: left;
+    padding: 8px;
+    }
+          
+    .tabel-pakket tr:nth-child(even){background-color: #f2f2f2}
+          
+    .tabel-pakket th {
+    background-color: #3A92CD;
+    color: white;
+    }
+
+.inschrijf_div {
+  font-weight: bold;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 10px;
+  border-top: 1px solid lightgray;
+  padding-bottom: 20px;
+}
+
+.knop {
+  width: 90px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.inschrijf-knop:hover {
+  background-color: #F78D30;
+}
+
+.inschrijf-knop {
+  background-color: #3A92CD;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+    font-weight: bold;
+  font-size: 105%;
+  border-radius: 4px;
+}
+
+          
+          /*EINDE LESPAKKETTEN*/
+          
+          /*INLOGGEN*/
+          
+          .login-bar {
+    width: 90%;
+    background-color: #3A92CD;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 140%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .login-container {
+  
+  width: 90%;
+  margin: auto;
+    
+  }
+  
+  .login-info {
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+  }
+          
+ #loginscherm {
+                width: 40%;
+                border-radius: 30px;
+                margin: auto;
+                padding: 30px;
+                color: white;
+                font-family: arial;
+                float: right;
+            }
+            
+            .veld {
+                border: 2px solid gray;
+                border-radius: 5px;
+                height: 20px;
+                text-align: center;
+                padding: 3px;                
+            }
+            
+            #foutmelding {
+              color: black;
+              padding-top: 20px;
+            }
+            
+            .button {
+              background-color: #3A92CD;
+              font-weight: bold;
+              padding: 5px;
+              
+            }
+            
+            .button:hover {
+              background-color: #F78D30;
+              cursor: pointer;
+            }
+          
+          /*EINDE INLOGGEN*/
+          
+          /*LESROOSTER*/
+          
+            .rooster-info {
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  #naam {
+    width: 50%;
+    float: left;
+  }
+  
+  .knop {
+    width: 50%;
+    float: right;
+  }
+  
+  .rooster-details {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .rooster-container {
+    padding-top: 30px;
+  }
+
+  
+  #logout {
+    float: right;
+    background-color: #3A92CD;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+  
+  #logout:hover {
+    background-color: #F78D30;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .dagen {
+    font-weight: bold;
+    background-color: lightgray;
+  }
+  
+  .week-dag-rooster, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    }
+        
+  .week-dag-rooster {
+    width: 90%;
+    margin: auto;
+    }
+        
+  .week-dag-rooster td:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  }
+  
+  .send-button:link {
+    background-color: #3A92CD;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .formulieren {
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid lightgray;
+    margin-top: 50px;
+  }
+  
+  .formulier-opgeven {
+    width: 50%;
+    float: left;
+    padding-bottom: 50px;
+  }
+  
+  .formulier-annuleren {
+    width: 50%;
+    float: right;
+  }
+  
+  textarea {
+    resize: none;
+    width: 167px;
+    height: 66px;
+  }
+  
+  .send-button:hover {
+    background-color: #F78D30;
+    color: white;
+    cursor: pointer;
+  }
+          
+          /*EINDE LESROOSTER*/
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------MEDIUM----------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+  
+  
+  /*normale template voor versie: groot*/
+
+      body {
+        background-image: url('achtergrond.png');
+        }
+                  
+                  
+        .center {
+          width: 90%;
+          color: black;
+          background-color: white;
+          box-shadow: 1px 1px 13px #888888;
+          position: absolute;
+          top: 0px;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          }
+                  
+        .header-bar-blue {
+          background-color: #3A92CD;
+          height: 10px;
+          }
+                  
+        .header {
+          width: 99,9%;
+          padding-left: 30px;
+          padding-top: 5px;
+          padding-bottom: 10px;
+          }
+          
+        .header-bar-orange {
+          width: 100%;
+          height: 5px;
+          background-color: #F78D30;
+        }
+                  
+        .header-bar-gray {
+          width: 100%;
+          height: 1px;
+          background-color: lightgray;
+          box-shadow: 0px 2px 2px lightgray;
+        }
+
+        .menu-trigger {
+          display: none;
+          }
+                  
+        .menu {
+          text-align: center;
+          width: 100%;
+          padding: 3px;
+          font-family: 'Noto Sans', sans-serif;
+          font-size: 85%;
+          font-weight: bold;
+          }
+
+        .menu a {
+          display: inline;
+          list-style-type: none;
+          text-decoration: none;
+          padding: 6px;
+          border-top-right-radius:10px;
+          border-top-left-radius:10px;
+          -o-transition:color .2s ease-out, background 1s ease-in;
+          -ms-transition:color .2s ease-out, background 1s ease-in;
+          -moz-transition:color .2s ease-out, background 1s ease-in;
+          -webkit-transition:color .2s ease-out, background 1s ease-in;
+          transition:color .2s ease-out, background .1s ease-in;
+          }
+                  
+        .menu ul {
+          display: inline;
+          list-style-type: none;
+          text-decoration: none;
+          padding: 6px;
+
+                  }
+                  
+      .menu li {
+        display: inline;
+        list-style-type: none;
+        text-decoration: none;
+        padding: 6px;
+        border-top-right-radius:10px;
+        border-top-left-radius:10px;
+        }
+                  
+      .dropbtn {
+          border: none;
+          cursor: pointer;
+      }
+      
+      .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+      
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          margin-top: 3px;
+          min-width: 120px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          border-top: 5px solid #F78D30;
+          border-bottom: 5px solid lightgray;
+      }
+      
+      .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          border-radius: 0px;
+      }
+
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+                  
+      .menu a, a:link {
+        color: black;
+        }
+                  
+      .menu a:hover {
+        background-color: #F78D30;
+        color: #FFFFFF;
+        }
+
+      .home {
+        width: 100%;
+        padding-top: 20px;
+        font-size: 90%;
+        }
+                  
+      .home-container {
+        width: 100%;
+        margin: auto;
+        font-family: open sans, sans-serif;
+        font-size: 90%;
+        }
+      
+      .footer-part-one {
+        background-color: #636363;
+        font-family: Arial;
+        font-size: 65%;
+        color: #c1c1c1;
+        float: left;
+        width: 100%;
+      }
+      
+      
+      .footer-title {
+        font-weight: bold;
+        font-size: 110%;
+        padding-bottom: 4px;
+      }
+      
+      .footer-list {
+        float: left;
+        border-left: 1px solid grey;
+        padding-right:4%;
+      }
+      
+      .footer-list:first-child {
+        border-left: 1px #636363;
+      }
+      
+      
+      .footer-container{
+        width:800px;
+        margin:auto;
+      }
+      
+      .footer-list li {
+        list-style-type: none;
+      }
+      
+      .footer-list a {
+      color: #b5b5b5;
+      text-decoration: none;
+      }
+      
+      .footer-list a:hover {
+        color: white;
+      }
+      
+      .footer-icon {
+        width: 18px;
+      }
+
+      
+      .footer-part-two {
+        background-color: #464646;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#b5b5b5;;
+        font-size: 65%;
+        font-family: open sans, sans-serif;
+        float: left;
+        width: 100%;
+        margin-top: -1px;
+      }
+      
+      .footer-images {
+        width: 30%;
+        margin: auto;
+      }
+      
+      .footer-copyright {
+        float: left;
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+      
+      .image-link {
+        width: 80px;
+        filter: url(filters.svg#grayscale); 
+        filter: gray; 
+        -webkit-filter: grayscale(1); 
+      }
+      
+      .image-link:hover
+      {
+      filter: none;
+      -webkit-filter: none;
+      }
+      
+      .footer-developers {
+        float: right;
+        padding-right: 20px;
+        padding-top: 20px;
+      }
+      
+            /*einde van de template en begin van de content*/
+      
+          /*HOME*/
+            .page-part-one {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    font-size: 85%;
+  }
+  
+  .page-part-two {
+    /*width: 50%;*/
+    float: left;
+  }
+          
+      #bmw{
+        width:425px;
+        height:273.6px;
+        text-align:center;
+      }    
+          
+          
+      #vwauto{
+    width:425px;
+    height:273.6px;
+    text-align:center;
+  }   
+  
+  .NieuwsAuto{
+    width:80%;
+    margin:auto;
+  }
+    .NieuwsText{
+    padding-left:20px;
+    padding-right:20px;
+  }
+       #NieuwsTopText{
+    text-align:center;
+  }     
+          
+          /*EINDE HOME*/
+          
+                  /*CONTACT*/
+          
+    
+    .map {
+    width: 50%;
+    height: 450px;
+    float: right;
+    padding-bottom: 30px;
+  }
+  
+  .contact-container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .contact-container h2 {
+    background-color: #3A92CD;
+    padding: 5px;
+    color: white;
+  }
+  
+  .contact-info {
+    width: 48%;
+    float: left;
+  }
+  
+  .bel-me-nu {
+    display: none;
+  }
+          
+          /*EINDE CONTACT*/
+          
+          
+                    /*VACATURES*/
+          
+            .vacature-box {
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .vacature-box h2 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    background-color: #3A92CD;
+    color: white;
+    padding-left: 10px;
+  }
+  
+  .vacature-box a {
+    background-color: #3A92CD;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  
+  .vacature-box a:hover {
+    background-color: #F78D30;
+    color: white;
+  }
+  
+  #video {
+    float: right;
+  }
+          
+          
+          /*EINDE VACATURES*/
+          
+          
+          
+          /*LESPAKKETTEN*/
+          
+  .current {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+  }
+
+    .pakket-keuze {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pakket-keuze img {
+  width: 15%;
+  height: 10%;
+  transition: all .2s ease-in-out;
+  opacity: 0.8;
+}
+
+.pakket-keuze img:hover {
+  opacity: 1.0;
+  transform: scale(0.8);
+}
+
+.pakket-keuze-klein {
+  display: none;
+}
+
+.tarief-soort {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 15px;
+  width: 90%;
+  margin: auto;
+}
+
+.tabel-pakket {
+    padding-top: 20px;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    }
+          
+    .tabel-pakket th, td {
+    text-align: left;
+    padding: 8px;
+    }
+          
+    .tabel-pakket tr:nth-child(even){background-color: #f2f2f2}
+          
+    .tabel-pakket th {
+    background-color: #3A92CD;
+    color: white;
+    }
+
+.inschrijf_div {
+  font-weight: bold;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 10px;
+  border-top: 1px solid lightgray;
+  padding-bottom: 20px;
+}
+
+.knop {
+  width: 90px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.inschrijf-knop:hover {
+  background-color: #F78D30;
+}
+
+.inschrijf-knop {
+  background-color: #3A92CD;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+    font-weight: bold;
+  font-size: 105%;
+  border-radius: 4px;
+}
+
+          
+          /*EINDE LESPAKKETTEN*/
+          
+          
+                   /*INLOGGEN*/
+          
+          .login-bar {
+    width: 90%;
+    background-color: #3A92CD;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 140%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .login-container {
+  
+  width: 90%;
+  margin: auto;
+    
+  }
+  
+  .login-info {
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+  }
+          
+ #loginscherm {
+                width: 40%;
+                border-radius: 30px;
+                margin: auto;
+                padding: 30px;
+                color: white;
+                font-family: arial;
+                float: right;
+            }
+            
+            .veld {
+                border: 2px solid gray;
+                border-radius: 5px;
+                height: 20px;
+                text-align: center;
+                padding: 3px;                
+            }
+            
+            #foutmelding {
+              color: black;
+              padding-top: 20px;
+            }
+            
+            .button {
+              background-color: #3A92CD;
+              font-weight: bold;
+              padding: 5px;
+              
+            }
+            
+            .button:hover {
+              background-color: #F78D30;
+              cursor: pointer;
+            }
+          
+          /*EINDE INLOGGEN*/
+          
+                    /*LESROOSTER*/
+          
+            .rooster-info {
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  #naam {
+    width: 50%;
+    float: left;
+  }
+  
+  .knop {
+    width: 50%;
+    float: right;
+  }
+  
+  .rooster-details {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .rooster-container {
+    padding-top: 30px;
+  }
+
+  
+  #logout {
+    float: right;
+    background-color: #3A92CD;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+  
+  #logout:hover {
+    background-color: #F78D30;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .dagen {
+    font-weight: bold;
+    background-color: lightgray;
+  }
+  
+  .week-dag-rooster, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    }
+        
+  .week-dag-rooster {
+    width: 90%;
+    margin: auto;
+    }
+        
+  .week-dag-rooster td:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  }
+  
+  .send-button:link {
+    background-color: #3A92CD;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .formulieren {
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid lightgray;
+    margin-top: 50px;
+  }
+  
+  .formulier-opgeven {
+    width: 50%;
+    float: left;
+    padding-bottom: 50px;
+  }
+  
+  .formulier-annuleren {
+    width: 50%;
+    float: right;
+  }
+  
+  textarea {
+    resize: none;
+    width: 167px;
+    height: 66px;
+  }
+  
+  .send-button:hover {
+    background-color: #F78D30;
+    color: white;
+    cursor: pointer;
+  }
+          
+          /*EINDE LESROOSTER*/
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------KLEIN--------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 799px) {
+  
+/*header en menu*/
+        
+  body {
+    background-image: url('achtergrond.png');
+  }
+        
+        
+  .center {
+    margin: auto;
+    width: 100%;
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px 13px #888888;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    }
+        
+  .header-bar-blue {
+    background-color: #3A92CD;
+    height: 10px;
+    }
+        
+  .header {
+      width: 99,9%;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      padding-left: 3%;
+  }
+        
+  .header-bar-orange {
+      width: 100%;
+      height: 5px;
+      background-color: #F78D30;
+  }
+      
+      .header-bar-gray {
+        width: 100%;
+        height: 1px;
+        background-color: lightgray;
+        box-shadow: 0px 2px 2px lightgray;
+      }
+        
+        .menu {
+        text-align: center;
+        width: 99,9%;
+        padding: 3px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 95%;
+        font-weight: bold;
+        display: none;
+        }
+        
+        .menu {
+        text-align: center;
+        width: 100%;
+        padding: 3px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 85%;
+        font-weight: bold;
+        }
+                  
+        .menu a {
+          display: block;
+          list-style-type: none;
+          text-decoration: none;
+          padding: 6px;
+          }
+                  
+        .menu ul {
+          display: block;
+          list-style-type: none;
+          text-decoration: none;
+          padding: 6px;
+        }
+                  
+        .menu li {
+          display: block;
+          list-style-type: none;
+          text-decoration: none;
+          padding: 6px;
+          }
+        
+        .menu a:link {
+          color: black;
+          text-decoration: none;
+        }
+        
+        .border-items {
+          border-top: 1px solid lightgray;
+        }
+        
+        .dropdown-content {
+        display: inline;
+        position: relative;
+        background-color: #f9f9f9;
+        }
+
+
+        .dropdown-content a {
+          color: red;
+          padding: 6px;
+          font-size: 90%;
+          font-weight: 400;
+          
+        }
+                  
+        .menu a:hover {
+          background-color: #F78D30;
+          color: #FFFFFF;
+          }
+          
+        .menu a:visited {
+          color: black;
+          border-top: 1px solid lightgray;
+        }
+        
+        .menu-trigger {
+          width: 30px;
+          margin: auto;
+        }
+        
+        .hamburger-logo {
+          background-color: white;
+          width: 30px;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        .hamburger-logo:active {
+          margin-top: -1px;
+        }
+        
+        .nav-expanded {
+          display: block;
+        }
+        
+        .home {
+          width: 100%;
+          left: 0px;
+          right: 0px;
+          padding-top: 20px;
+        }
+        
+        .home-container {
+
+          width: 100%;
+          margin: auto;
+          font-family: open sans, sans-serif;
+          font-size: 75%;
+        }
+        .text-container{
+          width:100%;
+        }
+      
+      .footer-part-one {
+        background-color: #636363;
+        font-family: Arial;
+        font-size: 60%;
+        color: #c1c1c1;
+        float: left;
+        width: 100%;
+      }
+      
+      .footer-title {
+        font-weight: bold;
+        font-size: 110%;
+        padding-bottom: 4px;
+      }
+      
+      .footer-list {
+        border-top: 1px solid grey;
+        padding-right:4%;
+        width: 70%;
+        margin: auto;
+        text-decoration: none;
+        padding-top: 2%;
+        padding-bottom: 5%;
+      }
+      
+      .empty {
+        display: none;
+      }
+      
+      .footer-list li {
+        list-style-type: none;
+        text-decoration: none;
+      }
+      
+      .footer-list a {
+      color: #b5b5b5;
+      text-decoration: none;
+      }
+      
+      .footer-list a:hover {
+        color: white;
+      }
+      
+      .footer-icon {
+        width: 18px;
+      }
+      
+      
+      .footer-part-two {
+        background-color: #464646;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#b5b5b5;;
+        font-size: 50%;
+        font-family: open sans, sans-serif;
+        float: left;
+        width: 100%;
+      }
+      
+      .footer-images {
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        padding-top: 50px;
+      }
+      
+      .footer-copyright {
+        float: left;
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+      
+      .image-link {
+        width: 80px;
+        filter: url(filters.svg#grayscale);
+        filter: gray; 
+        -webkit-filter: grayscale(1); 
+      }
+      
+      .footer-images a {
+        text-decoration: none;
+      }
+      
+      .footer-images:link {
+        text-decoration: none;
+      }
+      
+      .image-link:hover {
+      filter: none;
+      -webkit-filter: none;
+      }
+      
+      .footer-developers {
+        float: right;
+        padding-right: 20px;
+        padding-top: 20px;
+      }
+      
+/*einde van de template en begin van de content*/
+      
+          /*HOME*/
+          
+            .page-part-one {
+    width: 95%;
+    /*float: left;*/
+    font-size: 85%;
+    margin: auto;
+  }
+  
+  .page-part-two {
+    /*width: 50%;*/
+    float: left;
+  }
+  
+      #bmw{
+        width:425px;
+        height:273.6px;
+        text-align:center;
+      }    
+          
+          
+      #vwauto{
+    width:425px;
+    height:273.6px;
+    text-align:center;
+  }         
+  
+  
+  .NieuwsAuto{
+    width:80%;
+    margin:auto;
+  }
+    .NieuwsText{
+    padding-left:20px;
+    padding-right:20px;
+  }
+  
+  #NieuwsTopText{
+    text-align:center;
+  }
+          /*EINDE HOME*/
+          
+              /*CONTACT*/
+          
+    
+    .map {
+    width: 100%;
+    height: 450px;
+    padding-bottom: 30px;
+  }
+  
+  .contact-container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .contact-container h2 {
+    background-color: #3A92CD;
+    padding: 5px;
+    color: white;
+  }
+  
+  .contact-info {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  .bel-me-nu a {
+    font-size: 120%;
+    background-color: #3A92CD;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+          
+          /*EINDE CONTACT*/
+          
+          
+          
+  /*VACATURES*/
+          
+  .vacature-box {
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .vacature-box h2 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    background-color: #3A92CD;
+    color: white;
+    padding-left: 10px;
+  }
+  
+  .vacature-box a {
+    background-color: #3A92CD;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  
+  .vacature-box a:hover {
+    background-color: #F78D30;
+    color: white;
+  }
+  
+  #video {
+    width: 100%;
+  }
+          
+          /*EINDE VACATURES*/
+          
+          
+          /*LESPAKKETTEN*/
+          
+.pakket-keuze {
+display: none;
+}
+
+.pakket-keuze-klein {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.tarief-soort {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 15px;
+  width: 90%;
+  margin: auto;
+}
+
+.tabel-pakket {
+    padding-top: 20px;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    }
+          
+    .tabel-pakket th, td {
+    text-align: left;
+    padding: 8px;
+    }
+          
+    .tabel-pakket tr:nth-child(even){background-color: #f2f2f2}
+          
+    .tabel-pakket th {
+    background-color: #3A92CD;
+    color: white;
+    }
+
+.inschrijf_div {
+  font-weight: bold;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 10px;
+  border-top: 1px solid lightgray;
+  padding-bottom: 20px;
+}
+
+.knop {
+  width: 90px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.inschrijf-knop:hover {
+  background-color: #F78D30;
+}
+
+.inschrijf-knop {
+  background-color: #3A92CD;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+    font-weight: bold;
+  font-size: 105%;
+  border-radius: 4px;
+}
+
+          
+          /*EINDE LESPAKKETTEN*/
+          
+                   /*INLOGGEN*/
+          
+          .login-bar {
+    width: 90%;
+    background-color: #3A92CD;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 140%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .login-container {
+  
+  width: 90%;
+  margin: auto;
+    
+  }
+  
+  .login-info {
+    width: 100%;
+    padding-top: 30px;
+  }
+          
+ #loginscherm {
+                width: 100%;
+                border-radius: 30px;
+                margin: auto;
+                padding: 30px;
+                color: white;
+                font-family: arial;
+                
+            }
+            
+            .veld {
+                border: 2px solid gray;
+                border-radius: 5px;
+                height: 20px;
+                text-align: center;
+                padding: 3px;                
+            }
+            
+            #foutmelding {
+              color: black;
+              padding-top: 20px;
+            }
+            
+            .button {
+              background-color: #3A92CD;
+              font-weight: bold;
+              padding: 5px;
+              
+            }
+            
+            .button:hover {
+              background-color: #F78D30;
+              cursor: pointer;
+            }
+          
+          /*EINDE INLOGGEN*/
+          
+          /*LESROOSTER*/
+          
+  .rooster-info {
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  #naam {
+    width: 50%;
+    float: left;
+  }
+  
+  .knop {
+    width: 50%;
+    float: right;
+  }
+  
+  .rooster-details {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .rooster-container {
+    padding-top: 30px;
+    width: 90%;
+    height: 240px;
+    margin: auto;
+    overflow: auto;
+  }
+
+  
+  #logout {
+    float: right;
+    background-color: #3A92CD;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+  
+  #logout:hover {
+    background-color: #F78D30;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .dagen {
+    font-weight: bold;
+    background-color: lightgray;
+  }
+  
+  .week-dag-rooster, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    }
+        
+  .week-dag-rooster {
+    width: 90%;
+    margin: auto;
+    }
+        
+  .week-dag-rooster td:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  }
+  
+  .send-button:link {
+    background-color: #3A92CD;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .formulieren {
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid lightgray;
+    margin-top: 50px;
+  }
+  
+  .formulier-opgeven {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+  
+  .formulier-annuleren {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+    border-top: 1px solid lightgray;
+  }
+  
+  textarea {
+    resize: none;
+    width: 167px;
+    height: 66px;
+  }
+  
+  .send-button:hover {
+    background-color: #F78D30;
+    color: white;
+    cursor: pointer;
+  }
+          
+          /*EINDE LESROOSTER*/
+        
+        }

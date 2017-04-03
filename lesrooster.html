@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+        <title>Rocket Lesrooster</title>
+        <link href='https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="template.css">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <meta name="viewport" content="width=device-width" />
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Autorijschool, Rijschool, Rocket, Rijles">
+        <meta name="author" content="Brouwer & Horsman Development">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="javascript.js"></script>
+
+</head>
+<body onload="checkCookie('user')">
+  <!--begin container pagina-->
+  <div class="center"> 
+    
+      <div class="header-bar-blue"></div>
+      
+          <a href="index.html">
+            <div class="header">
+            <img src="logo.png" class="rijschool-logo">
+            </div>
+          </a>
+          
+  <!--hier begint het menu-->
+  
+      <div class="menu-trigger"><img class="hamburger-logo" src="MenuIcon4.png"></div>
+  
+      <div class="menu">
+        
+          <ul>
+            <a href="index.html" class="border-items"><li>Home</li></a>
+            <a href="nieuws.html" class="border-items"><li>Nieuws</li></a>
+            <a href="overons.html" class="border-items"><li>Over ons</li></a>
+            
+            
+            <div class="dropdown" class="border-items">  
+              <a href="contact.html" class="border-items"><li>Contact</li></a>
+                <div class="dropdown-content">
+                  <a href="vacatures.html">Vacatures</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">  
+              <a href="lesmethode.html" class="border-items"><li>Lesmethode</li></a>
+                <div class="dropdown-content">
+                  <a href="theorie.html">Theorie</a>
+                  <a href="rijangst.html">Rijangst</a>
+                  <a href="voorwaarden.html">Algemene voorwaarden</a> 
+                </div>
+            </div>
+            
+            <div class="dropdown">  
+              <a href="lespakketten.html" class="border-items"><li class="dropbtn">Lespakketten</li></a>
+                <div class="dropdown-content">
+                  <a href="auto.html">Auto</a>
+                  <a href="bromfiets.html">Bromfiets</a>
+                  <a href="motor.html">Motor</a>
+                  <a href="vrachtwagen.html">Vrachtwagen</a>
+                  <a href="aanhangwagen.html">Aanhangwagen</a>
+                  <a href="taxi.html">Taxi</a>
+                </div>
+            </div>
+            
+            <a href="inschrijven.html" class="border-items"><li>Inschrijven</li></a>
+            <a href="inloggen.html" class="border-items"><li>Inloggen</li></a>
+          </ul>
+          
+      </div>
+      
+      <div class="header-bar-orange"></div>
+      <div class="header-bar-gray"></div>
+  
+  <!--hier eindigt het menu en begint de content-->
+
+      <div class="home">
+  
+        <div class="home-container">
+          
+          <div class="rooster-info">
+            
+            
+            <div id="naam"></div>
+            
+            <div class="knop"><a id="logout" onclick="deleteCookie('user')">Uitloggen</a></div>
+          
+          
+          </div>
+          
+          <div class="rooster-details">
+            <h3>Informatie</h3>
+            &#9654; Per rooster blokje staat het als volgt aangegeven: naam, adres, stof te behandelen.<br>
+            &#9654; Het rooster wordt elke avond om 9 uur bijgewerkt.<br>
+            &#9654; Gebruik de onderstaande formulieren om jezelf op te geven of af te melden voor een les.
+          </div>
+          
+          <div class="rooster-container">
+          
+          <table class="week-dag-rooster">
+            
+            <tr class="dagen">
+                <td></td>
+                <td>Maandag</td>
+                <td>Dinsdag</td>
+                <td>Woensdag</td>
+                <td>Donderdag</td>
+                <td>Vrijdag</td>
+                <td>Zaterdag</td>
+                <td>Zondag</td>
+            </tr>
+            
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td>A. S. Shole<br>
+                Loperstraat 7<br>
+                Koppeling/gas
+                </td>
+                <td>Vrij</td>
+                <td>Vrij</td>
+                <td>K. L. Ootzak<br>
+                Polilaan 29B<br>
+                Plaats op de weg</h6></td>
+                <td>Vrij</td>
+                <td>W. Eskamp<br>
+                Langevielaan 82<br>
+                Proefles</td>
+                <td>Geen lessen</td>
+            </tr>
+            
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>J. Friedland<br>
+                Evenaar 89<br>
+                Proefles</td>
+                <td>K. van der Laan<br>
+                Devenstraat 19<br>
+                Scannen</td>
+                <td>E. B. Ronalds<br>
+                Hoornstraat 28<br>
+                Scannen</td>
+                <td>C. Qebeco<br>
+                Lorrestraat 102<br>
+                Inhalen</td>
+                <td>M. Rutte<br>
+                Philipslaan 230<br>
+                Omkeren</td>
+                <td>Vrij</td>
+                <td>Geen lessen</td>
+            </tr>
+            
+            <tr>
+                <td>11:00 - 12:00</td>
+                <td>H. Ahmed<br>
+                Korenstraat 222<br>
+                In/uit voegen</td>
+                <td>Vrij</td>
+                <td>H. Oelen<br>
+                Waterschap 29<br>
+                Plaats op de weg</td>
+                <td>U. Renno<br>
+                Prinsenstraat 29<br>
+                Proefles</td>
+                <td>Vrij</td>
+                <td>N. Aakes<br>
+                Deurenstraat 2<br>
+                Nog te bepalen</td>
+                <td>Geen lessen</td>
+            </tr>
+            
+            
+                        <tr>
+                <td>12:00 - 13:00</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Geen lessen</td>
+            </tr>
+            
+            
+                        <tr>
+                <td>13:00 - 14:00</td>
+                <td>B. Ronsberge<br>
+                Pakkelaan 1<br>
+                Nog te bepalen</td>
+                <td>Vrij</td>
+                <td>Vrij</td>
+                <td>Vrij</td>
+                <td>I. Ryland<br>
+                Werslaan 73<br>
+                Volgafstand</td>
+                <td>Vrij</td>
+                <td>Geen lessen</td>
+            </tr>
+            
+                        <tr>
+                <td>14:00 - 15:00</td>
+                <td>Vrij</td>
+                <td>S. Langerak<br>
+                Rinkade 29<br>
+                Stoppen</td>
+                <td>Vrij</td>
+                <td>R. Echberts<br>
+                Verhaarweg 8B<br>
+                Positie</td>
+                <td>O. Otto<br>
+                Kislaan 10<br>
+                Schakelen</td>
+                <td>Geen lessen</td>
+                <td>Geen lessen</td>
+            </tr>
+            
+            <tr>
+                <td>15:00 - 16:00</td>
+                <td>Vrij</td>
+                <td>A. Burg<br>
+                Nieuwebrug 28<br>
+                Inparkeren</td>
+                <td>Geen lessen</td>
+                <td>G. Koops<br>
+                Nusselweg 3<br>
+                Achteruitrijden</td>
+                <td>Vrij</td>
+                <td>Geen lessen</td>
+                <td>Geen lessen</td>
+            </tr>
+            
+            <tr>
+                <td>16:00 - 17:00</td>
+                <td>T. Ering<br>
+                Koperstraat 290<br>
+                Praktijk examen</td>
+                <td>J. Parrer<br>
+                Promptlaan 44<br>
+                Verkeerstekens</td>
+                <td>J. R. Roos<br>
+                Philipslaan 222<br>
+                Tussentijdse toets</td>
+                <td>W. Atsup<br>
+                Wienerlaan 92<br>
+                Scannen</td>
+                <td>R. Dong<br>
+                Groningerlaan 2<br>
+                Afstand houden</td>
+                <td>Geen lessen</td>
+                <td>Geen lessen</td>
+            </tr>
+            
+            <tr>
+                <td>17:00 - 18:00</td>
+                <td>Geen lessen</td>
+                <td>Geen lessen</td>
+                <td>Vrij</td>
+                <td>Vrij</td>
+                <td>R. de Lange<br>
+                Vanrijnlaan 66<br>
+                Hellingproef</td>
+                <td>Geen lessen</td>
+                <td>Geen lessen</td>
+            </tr>
+            
+        </table>
+        
+        </div>
+        
+        <div class="formulieren">
+          
+          <form class="formulier-opgeven">
+            <h3>Inschrijven voor een les</h3>
+            Naam<br>
+            <input type="text"><br>
+            <br>
+            Gewenste datum<br>
+            <input type="text"><br>
+            <br>
+            Gewenste tijd<br>
+            <input type="text">
+            <br>
+            <br>
+            <a href="mailto:" class="send-button">Versturen</a>
+            
+            </form>
+            
+          <form class="formulier-annuleren">
+            
+            <h3>Een les annuleren</h3>
+            
+            Naam<br>
+            <input type="text"><br>
+            <br>
+            Reden (optioneel)<br>
+            <textarea></textarea><br>
+            
+            <br>
+            <a href="mailto:" class="send-button">Versturen</a>
+            
+            
+          </form>
+          
+          
+        </div>
+          
+        </div>
+        
+  <!--hier eindigt de content en begint de footer-->
+
+  <div class="footer-part-one">
+      <div class="header-bar-gray"></div>
+  <div class="header-bar-blue"></div>
+    
+    <div class="footer-container">
+      
+      <ul class="footer-list">
+        
+        <li class="footer-title">Informatie</li>
+        <li>&nbsp;</li>
+        <li><a href="voorwaarden.html" target="_blank">Algemene voorwaarden</a></li>
+        <li><a href="vacatures.html" target="_blank">Vacatures</a></li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+  
+      </ul>
+
+      <ul class="footer-list">
+  
+        <li class="footer-title">Contact gegevens</li>
+        <li><img src="tel1.png" class="footer-icon"> 030 - 5582903</li>
+        <li><img src="tel2.png" class="footer-icon"> 06 - 40872234</li>
+        <li><img src="address.png" class="footer-icon">&nbsp;Thorbeckelaan 82A<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3455 EB Utrecht</li>
+        
+      </ul>
+
+      <ul class="footer-list">
+        <li class="footer-title">E-mail</li>
+        <li>rijschoolrocket@hotmail.com</li>
+        <li>&nbsp;</li>
+        <li class="footer-title">Fax</li>
+        <li>030 2 730 842</li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+      </ul>
+
+      <ul class="footer-list">
+        <li class="footer-title">Sociale media</li>
+        <li><a href="https://nl-nl.facebook.com/" target="_blank"><img src="facebook.png" class="footer-icon">Facebook</a></li>
+        <li><a href="https://twitter.com/?lang=nl" traget="_blank"> <img src="twitter.png" class="footer-icon">Twitter</a></li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+        <li class="empty">&nbsp;</li>
+      </ul>
+      
+  </div>
+  
+  </div>
+
+
+      <div class="footer-part-two">
+        
+          <div class="footer-copyright">
+            &#169; Copyright 2016 Autorijschool Rocket
+          </div>
+    
+          <div class="footer-developers">
+            Brouwer & Horsman Media Development
+          </div>
+    
+          <div class="footer-images">
+            <a href="https://www.cbr.nl/1036.pp"><img src="rijopleidingimg.png" class="image-link" hspace="20"></a>
+            
+            <a href="http://www.bovag.nl/"><img src="bovag.jpg" class="image-link"></a>
+          </div>
+
+  </div>
+
+</div>
+  
+<!--hier eindigt de footer en daarmee ook de pagina-->
+
+
+</body>
+</html>
